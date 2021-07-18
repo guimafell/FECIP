@@ -1,0 +1,195 @@
+h1{
+    border: solid 2px black;
+    border-radius: 5px;
+}
+section{
+    padding-bottom: 0px;
+    padding-top:0px ;
+}
+.navbar{
+    height:65px;
+}
+.nav-item{
+    margin-left: 50px;
+}
+.nav-item > a{
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    color: black;
+    font-size: 24px;
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.lugares{
+    margin-top: 0px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+section > .imagens{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+section > .palavras{
+    padding-left: 10px;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding-right: 10px;
+}
+section > .imagens > a > .im1{
+    width: 400px;
+    height: 600px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 7px 8px 3px rgba(0,0,0,0.45);
+    border-radius:30px;
+}
+.card-img-top{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-radius: 100%;
+}
+
+/* ssssssssssssssssssssssssssssssssssssssssss */
+
+.lugares{
+    border-bottom: solid 1px black;
+    opacity: 0;
+    transform: translate3d(-100px,0,0);
+    transition: 0.2s;
+    
+}
+.lugares-anime{
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+/* ssssssssssssssssssssssssssssssssssssssssss */
+
+.img{
+    display: flex;
+    flex-direction: row;
+    padding-left: 10px;
+}
+.im{
+    width: 100px;
+    height: 100px;
+    border-radius:100px;
+    background-color:red;
+    box-shadow: 5px 7px 8px 3px rgba(0,0,0,0.45);
+}
+.org{
+    padding-left:100px;
+}
+.tes{
+    font-size: 30px;
+    padding-right: 150px;
+    color:rgb(0, 0, 0);
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.roda{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.Card1{
+    padding-left: 90px;
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card2{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.itens{
+    background-color:#8bc9ff;;
+    max-width: 290px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.lin{
+    margin-left: 25px;
+}
+#icon{
+    width: 35px;
+    height: 35px;
+}
+/* configuração dos icons*/
+
+.fa-facebook:hover{
+    transition-duration: .4s;
+    transform: scale(1.5,1.5);
+    }
+
+.fa-instagram{
+    color: blueviolet;
+    transition-duration: .4s;
+}
+.fa-instagram:hover{
+transform: scale(1.5,1.5);
+}
+
+.fa-whatsapp{
+    color: green;
+    transition-duration: .4s;
+}
+
+.fa-whatsapp:hover{
+    transform: scale(1.5,1.5);
+}
+.fa-linkedin:hover{
+    transition-duration: .4s;
+    transform: scale(1.5,1.5);
+}
+
+.itens {
+    -webkit-box-shadow: 5px 7px 8px 3px rgba(0,0,0,0.45); 
+box-shadow: 5px 7px 8px 3px rgba(0,0,0,0.45);
+}
+
+.topicos{
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    background-color: #8bc9ff;
+    max-width: 290px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+}
+.topicos {
+-webkit-box-shadow: 5px 7px 8px 3px rgba(0,0,0,0.45); 
+box-shadow: 5px 7px 8px 3px rgba(0,0,0,0.45);
+}
+/*aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa*/
+.copyright{
+    border-top: solid 1px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

@@ -1,0 +1,73 @@
+.topo{
+    display: flex;
+    flex-direction: row;
+}
+.topo > .L1{
+    width:70%;
+    height:50%;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-right: 1px solid black;
+}
+.topo > .L1 > .ver{
+    width: 400px;
+    height:550px;
+    box-shadow: 5px 7px 8px 3px rgba(0,0,0,0.45);
+    border-radius:30px;
+}
+.topo > .L2{
+    width: 50%;
+    height:50%;
+    margin-top: 100px;
+    margin-right: 150px;
+}
+.topo > .L2 > p{
+    font-size: 20px;
+}
+.topo > .L2 > h2{
+    margin-left: 10px;
+    color: red;
+}
+
+.segur{
+    display: flex;
+    flex-direction: row;
+    margin-top:200px;
+}
+.fa-star{
+    margin-left: 10px;
+    margin-top: 5px;
+    color:yellow;
+    font-size:25px;
+}
+
+.meio{
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+}
+.meio > .map{
+    width:50%;
+    border-right: 1px solid black;
+}
+.meio> .map > .localiza{
+    width: 50%;
+    margin-left:100px;
+}
+.meio > .noticia > .cardNo{
+    background-color: white;
+    width: 400px;
+    height:325px;
+    margin-left: 150px;
+}
+.proximidades{
+    margin-top: 100px;
+    margin-bottom:40px;
+}
+.proximidades {
+    display: flex;
+    flex-direction: row;
+}
+.proximidades > .card{
+ margin-left: 40px;
+}

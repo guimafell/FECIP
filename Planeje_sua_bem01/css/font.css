@@ -1,0 +1,10 @@
+@font-face{
+    font-family: 'noto';
+    src: url('/plugins/Noto_Sans/NotoSans-Regular.ttf');
+    font-weight: normal;
+}
+@font-face{
+    font-family: 'noto';
+    src: url('/plugins/Noto_Sans/NotoSans-Italic.ttf');
+    font-weight: normal;
+}
